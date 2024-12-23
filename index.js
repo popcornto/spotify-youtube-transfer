@@ -10,17 +10,9 @@ var redirect_uri = "http://localhost:8888/callback";
 
 var app = express();
 
-const secrets = {
-  clientId: "b46de3e85ced4b3b90667350bab9e2b3",
-  clientSecret: "9ec8b2ebfef44725b58a9f57b8794f52",
-  redirectUri: redirect_uri,
-};
 
-const data = {
-  grant_type: "client_credentials",
-  client_id: "b46de3e85ced4b3b90667350bab9e2b3",
-  client_secret: "9ec8b2ebfef44725b58a9f57b8794f52",
-};
+
+
 
 savedTracks = {}
 
